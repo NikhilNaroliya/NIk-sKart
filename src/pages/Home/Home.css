@@ -1,11 +1,13 @@
 .home-container {
     font-family: 'Montserrat', sans-serif;
     padding: 3rem 4rem;
-    flex-grow: 1
+    flex-grow: 1;
+    
 }
 
 .home-img-container {
     position: relative;
+   
 }
 
 .bg-img-container {
@@ -14,6 +16,7 @@
     background-position: center;
     background-size: cover;
     height: 31.25rem;
+    border-radius: 2rem;
 }
 
 .home-page-text {
@@ -32,12 +35,23 @@
     flex-direction: column;
     gap: 1rem
 }
-
+.sign:hover{
+    background-color: rgb(85, 85, 75);
+    border-radius: 0.3rem;
+}
+/* a:hover {
+    background-color: rgb(85, 85, 75);
+    border-radius: 0.3rem;
+  } */
 .main-text-title {
     text-align: left;
     font-weight: var(--font-bold);
     font-size: 3rem;
     line-height: 1.4;
+}
+.sign:hover{
+    background-color: rgb(77, 77, 67);
+    border-radius: 0.3rem;
 }
 
 .home-img-container .overlay {
@@ -52,6 +66,7 @@
 
 .shop-now-btn {
     width: fit-content;
+    background-color: rgb(77, 71, 64);
 }
 
 
