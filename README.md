@@ -1,15 +1,14 @@
 <div align="center">
   <img src="src/assets/logo.png" height="100" width="100" alt="logo"/>
   
-# Pustaka
-  An Ecommerce website for Books 
+# ArtCart
+  An Ecommerce website for Art Related things 
 </div>
 
 ## **How to install and run locally ?**
 
 ```
-$ git clone https://github.com/rutvikpumak/pustaka.git
-$ cd pustaka
+$ cd  artcart
 $ npm install
 $ npm start
 ```
@@ -37,8 +36,5 @@ $ npm start
 - React Router v6
 - Vanilla CSS integrated with BoostMat UI Component Library
 - Razorpay payment gateway
-
-## **Demo -**
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/58260342/161412291-aec62d98-98bd-4902-8109-1069406702b4.gif)
 
 
