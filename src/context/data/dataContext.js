@@ -31,6 +31,7 @@ const DataProvider = ({ children }) => {
 
   const changeTitle = (title) => (document.title = `${title} | Pustaka`);
   return (
+    //  providing  values to datAcontext
     <DataContext.Provider
       value={{
         sortBy: state.sortBy,

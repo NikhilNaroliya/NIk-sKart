@@ -38,33 +38,34 @@ export function dataReducer(state, action) {
           percentageOff: calcPercentage(product.price, product.originalPrice),
         })),
       };
-    case ACTION_TYPE.INITIALIZE_ADDRESS:
-      return {
-        ...state,
-        address: action.payload,
-      };
+   
     case ACTION_TYPE.PRICE_RANGE:
       return {
         ...state,
         priceRange: action.payload,
       };
+      case ACTION_TYPE.INITIALIZE_ADDRESS:
+        return {
+          ...state,
+          address: action.payload,
+        };
     case ACTION_TYPE.SEARCH:
       return {
         ...state,
         search: action.payload,
       };
-    case ACTION_TYPE.SORT_BY:
-      return {
-        ...state,
-        sortBy: action.payload,
-      };
-
+   
+ 
     case ACTION_TYPE.SORT_BY_RATING:
       return {
         ...state,
         sortByRating: action.payload,
       };
-
+      case ACTION_TYPE.SORT_BY:
+        return {
+          ...state,
+          sortBy: action.payload,
+        };
     case ACTION_TYPE.CATEGORY:
       return {
         ...state,

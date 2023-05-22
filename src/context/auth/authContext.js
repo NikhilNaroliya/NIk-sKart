@@ -1,8 +1,8 @@
-import axios from "axios";
 import { createContext, useContext, useState, useEffect } from "react";
 import { loginService, signUpService } from "../../services";
 import { ACTION_TYPE } from "../../utils";
 import { useData } from "../data/dataContext";
+// import axios from "axios";
 
 const AuthContext = createContext();
 
