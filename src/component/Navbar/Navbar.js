@@ -76,7 +76,7 @@ export default function Navbar() {
             </li>{" "}
             <li onClick={() => navigate("/user_profile")}>
               <img
-                src="https://github.com/rutvikpumak/pustaka-ecom/blob/dev/images/logo.png?raw=true"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnXgl5znYuiMnVKofUzat_qYNB-QerB-cO7A&usqp=CAU"
                 alt="login"
                 title={token ? "User Profile" : "Sign In"}
               />
