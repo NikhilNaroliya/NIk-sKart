@@ -1,7 +1,14 @@
 /* Navbar Styles */
 .navbar {
     flex-direction: column;
-    background-color: rgb(106, 184, 232);
+    background-color: rgba(129, 210, 241, 0.77);
+     height: 4.3rem;
+
+}
+#artcart:hover{
+ color: rgb(73, 121, 180);
+
+ 
 }
 
 .navbar-main {

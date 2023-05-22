@@ -31,8 +31,8 @@ export function Login() {
   function loginHandler() {
     setLoginForm((form) => ({
       ...form,
-      email: "rutvikumak@gmail.com",
-      password: "rutvik123",
+      email: "nikhilnaroliya7@gmail.com",
+      password: "123",
     }));
   }
 
@@ -58,7 +58,7 @@ export function Login() {
           <div className="auth-pwd">
             <label htmlFor="pwd">Password</label>
             <input
-              placeholder="***********"
+              placeholder="**********"
               className="pwd-input"
               type="password"
               value={loginForm.password}

@@ -44,9 +44,9 @@ export function CheckoutPrice({ setMsg }) {
       key: "rzp_test_M7jr3sNuOwTIPE",
       amount: totalAmt * 100,
       currency: "INR",
-      name: "Pustaka",
+      name: "ArtCart",
       description: "Thank you for shopping with us",
-      image: "https://github.com/rutvikpumak/pustaka-ecom/blob/dev/images/logo.png?raw=true",
+      image: "",
       handler: function (response) {
         const orderData = {
           products: [...cart],

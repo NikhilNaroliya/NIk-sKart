@@ -39,7 +39,7 @@ export default function Navbar() {
               />
             )}
             <Link to="/">
-              <h3>ArtCart</h3>
+              <h3 id="artcart">ArtCart</h3>
             </Link>
           </div>
           <div className="search-container">

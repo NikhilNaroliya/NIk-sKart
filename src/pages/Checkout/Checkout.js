@@ -27,7 +27,7 @@ export function Checkout() {
       <div className="checkout-container">
         {msg ? (
           <h1 className="checkout-main-container flex-center  text-center">
-            🥂 You order has successfully placed !{placedHandler()}
+           You order has successfully placed !{placedHandler()}
           </h1>
         ) : (
           <div className="checkout-main-container flex-center">

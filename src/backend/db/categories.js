@@ -10,7 +10,7 @@ export const categories = [
     _id: uuid(),
     categoryName: "Oil Painting",
     description:
-      " Paintings from one of the finest oil painters of India get it now",
+      " Paintings from one of the finest oil painters, get it now",
   },
   {
     _id: uuid(),

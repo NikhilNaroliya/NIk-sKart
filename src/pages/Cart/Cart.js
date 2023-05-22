@@ -23,7 +23,7 @@ export function Cart() {
               {isCartHasItem ? (
                 cart.map((product) => <CartProduct key={product._id} product={product} />)
               ) : (
-                <h1 className="text-center"> Your Cart Is Empty ! ☹️</h1>
+                <h1 className="text-center">  Cart Is Empty fill it to shop</h1>
               )}
             </div>
             {isCartHasItem && <CartPrice setCouponModal={setCouponModal} />}

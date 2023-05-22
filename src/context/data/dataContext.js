@@ -29,7 +29,7 @@ const DataProvider = ({ children }) => {
     })();
   }, []);
 
-  const changeTitle = (title) => (document.title = `${title} | Pustaka`);
+  const changeTitle = (title) => (document.title = `${title} | ArtCart`);
   return (
     //  providing  values to datAcontext
     <DataContext.Provider

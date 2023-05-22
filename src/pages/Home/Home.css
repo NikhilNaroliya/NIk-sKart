@@ -66,7 +66,8 @@
 
 .shop-now-btn {
     width: fit-content;
-    background-color: rgb(77, 71, 64);
+    background-color: #6ec5dd;
+    border: white;
 }
 
 
@@ -118,6 +119,7 @@
     padding:2rem 1rem;
     color: var(--white);
     justify-content: space-around;
+    background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700000777.jpg') ;
 
 }
 

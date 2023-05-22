@@ -10,7 +10,7 @@ export function Home() {
   const navigate = useNavigate();
   const { dataDispatch, changeTitle } = useData();
   useEffect(() => {
-    changeTitle("Grabe your own art");
+    changeTitle("Grab arts at ");
     axios
       .get("/api/categories")
       .then((response) => setCategories(response.data.categories))
