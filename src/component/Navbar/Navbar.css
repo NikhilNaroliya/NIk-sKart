@@ -1,6 +1,7 @@
 /* Navbar Styles */
 .navbar {
     flex-direction: column;
+    background-color: rgb(79, 172, 209);
 }
 
 .navbar-main {
