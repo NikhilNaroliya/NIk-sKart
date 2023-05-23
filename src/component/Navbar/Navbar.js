@@ -57,6 +57,7 @@ export default function Navbar() {
             <li>
               <div className="icon cart-badge" onClick={() => navigate("/wishlist")}>
                 <i className="fa fa-heart" title="Wishlist"></i>
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtopwzvCZVK2lKUhIVCArEZ_v4alv5rksUPQ&usqp=CAU"/>
                 {wishlist && wishlist.length > 0 && (
                   <div className="notification-icon flex-center">
                     <span>{wishlist.length}</span>
@@ -67,6 +68,7 @@ export default function Navbar() {
             <li className="nav-cart" onClick={() => navigate("/cart")}>
               <div className="icon cart-badge">
                 <i className="fa fa-shopping-cart" title="Cart"></i>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFK4zfpmFmtLYAUELb5V9diC7rUmJDWyWkiiIIxqTf4Hk57q-qsperbD-SOMUWuRaHrGc&usqp=CAU"/>
                 {cart && cart.length > 0 && (
                   <div className="notification-icon flex-center">
                     <span>{cart.length}</span>

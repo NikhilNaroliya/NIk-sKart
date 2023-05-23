@@ -51,17 +51,19 @@ export function Home() {
             <div className="category-heading text-center">
               <h2>Featured Art Categories</h2>
               <p className="paragraph-md">
-                There are many categories of<span style={{fontSize:"1.2rem",color:"blue"}}> Art </span>  available at ArtCart,shop now.
+                There are many categories of<span style={{fontSize:"1.2rem",color:"#36c2c7"}}> Art </span>  available at <span style={{fontSize:"1.2rem",color:"#36c2c7"}}>ArtCart</span>,shop now.
                 
               </p>
             </div>
             <div className="category-row">
               {categories &&
-                categories.map(({ _id, categoryName, description }) => {
+                categories.map(({ _id, categoryName,image, description }) => {
                   return (
                     <div className="box" key={_id} onClick={() => categoryHandler(categoryName)}>
                       <div className="detail-box text-center">
                         <h4>{categoryName}</h4>
+                        <img id="box-image"  src={image} />
+
                         <p className="paragraph-sm">{description}</p>
                       </div>
                     </div>

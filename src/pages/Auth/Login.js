@@ -32,7 +32,7 @@ export function Login() {
     setLoginForm((form) => ({
       ...form,
       email: "nikhilnaroliya7@gmail.com",
-      password: "123",
+      password: "12345",
     }));
   }
 

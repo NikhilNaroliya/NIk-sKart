@@ -87,12 +87,20 @@
 }
 
 .detail-box p {
-    margin-top: 1rem
+    margin-top: 0.4rem;
+    
 }
+ #box-image{
+    height: 50px;
+
+    width: auto;
+    border-radius: 1rem;
+ }
+
 
 .box {
     background-color: var(--lynxWhite);
-    border-radius: 50%;
+    border-radius: 20%;
     flex-wrap: wrap;
     height: 11.875rem;
     width: 11.875rem;
@@ -104,6 +112,7 @@
 
 .box:hover {
     transform: scale(1.03);
+    background-color: #6ec5dd;
    
 }
 

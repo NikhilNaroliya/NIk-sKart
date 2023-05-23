@@ -58,12 +58,12 @@ export function makeServer({ environment = "development" } = {}) {
           address: [
             {
               _id: uuid(),
-              name: "Rutvik Umak",
-              street: "#1/4 , 100ft Ring Road, Karve Nagar",
-              city: "Bangalore",
-              state: "Maharashtra ",
+              name: "Nikhil K Naroliya",
+              street: "new street 232",
+              city: "Indore",
+              state: "MP",
               country: "India",
-              zipCode: "452412",
+              zipCode: "465688",
               mobile: "123456789",
             },
           ],

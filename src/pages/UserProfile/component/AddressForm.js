@@ -28,13 +28,13 @@ export function AddressForm({
     e.preventDefault();
     setAddForm((form) => ({
       ...form,
-      name: "Admin",
-      street: "33 , MG Road",
-      city: "Pune",
-      state: "Maharashtra",
+      name: "Nikhil ",
+      street: "new street 123",
+      city: "rajgarh",
+      state: "MP",
       country: "India",
-      zipCode: "411046",
-      mobile: "12345678",
+      zipCode: "465689",
+      mobile: "9943394993",
     }));
   };
 
