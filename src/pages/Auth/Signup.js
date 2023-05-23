@@ -10,6 +10,7 @@ export function Signup() {
     firstName: "",
     lastName: "",
   };
+  const [showPassword,setShowPass]=useState('');
   const [signUpForm, setSignUpForm] = useState(signUpFields);
   const { token, signUpUser } = useAuth();
   const { setLoader, changeTitle } = useData();
@@ -35,6 +36,10 @@ export function Signup() {
       navigate("/product");
       setLoader(false);
     }, 500);
+  }
+  const showPasswordHandler=(pass)=>{
+      setShowPass(pass)
+    
   }
 
   useEffect(() => changeTitle("Sign Up"), []);
@@ -90,6 +95,9 @@ export function Signup() {
               onChange={(e) => fillFormValue(e, "password")}
               required
             />
+            <a  id="showpass"  onClick={()=>showPasswordHandler(signUpForm.password)} style={{color:"#6ec5dd",fontWeight:'bold',border:"1px solid "}}>{{showPassword}==!''?'':'Show pass'}</a>
+           <p id="showingpass" style={{color:'grey',
+           }}> {showPassword}</p>
           </div>
           <div className="auth-primary-btn text-center" onClick={() => signUpHandler()}>
             <span className="link-btn">Create New Account</span>

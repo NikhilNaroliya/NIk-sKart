@@ -4,6 +4,20 @@
     height: calc(100vh - 71px);
 }
 
+
+#showpass{
+    width: fit-content;
+    margin-top: 1rem;
+    border-radius: 0.3rem;
+    padding: 0.4rem;
+}
+#showingpass{
+    width: fit-content;
+    margin-top: 1rem;
+    border-radius: 0.3rem;
+    padding: 0.4rem;
+}
+
 .auth-main-container {
     flex-direction: column;
     width:25rem;
