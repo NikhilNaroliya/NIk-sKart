@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
 }
 
 .navbar-right {
@@ -28,7 +28,6 @@
 
 .icon {
     font-size: 1.5rem;
-
 }
 
 .navbar-right li span {
@@ -76,7 +75,7 @@
 .search-bar {
     outline: none;
     border: none;
-    width: 100%;
+    max-width: 4rem;
 }
 
 .search-container .fa {
@@ -101,6 +100,7 @@
     letter-spacing: 0.5px;
 }
 
+
 .nav-header {
     position: sticky;
     top: 0;
@@ -110,7 +110,12 @@
 .navbar-left h3 {
     letter-spacing: 0.5px;
 }
+@media screen and (max-width:480px) {
+    .search-mob{
+      
+    }
 
+}
 
 @media screen and (max-width:550px) {
 
@@ -142,7 +147,7 @@
 
     .search-mob {
         display: flex;
-        width: 90%;
+        width: 35%;
     }
 
     .navbar-right li span {

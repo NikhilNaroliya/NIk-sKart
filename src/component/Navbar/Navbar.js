@@ -42,14 +42,14 @@ export default function Navbar() {
               <h3 id="artcart">ArtCart</h3>
             </Link>
           </div>
-          <div className="search-container">
+          <div className="search-container search-mob">
             <i className="fa fa-search" aria-hidden="true"></i>
             <input
               type="search"
               name="search"
               className="search-bar"
               value={input}
-              placeholder="Search for product"
+              placeholder="Search"
               onChange={(e) => setInput(e.target.value)}
             />
           </div>
@@ -86,16 +86,16 @@ export default function Navbar() {
           </ul>
         </div>
 
-        <div className="search-container search-mob" onKeyDown={(e) => searchHandler(e)}>
+        {/* <div className="search-container search-mob" onKeyDown={(e) => searchHandler(e)}>
           <i className="fa fa-search" aria-hidden="true"></i>
           <input
             type="search"
             name="search"
             className="search-bar"
-            placeholder="Search for product"
+            placeholder="Search"
             id=""
           />
-        </div>
+        </div> */}
       </ul>
     </div>
   );
