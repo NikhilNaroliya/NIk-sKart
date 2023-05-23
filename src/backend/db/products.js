@@ -123,15 +123,119 @@ export const products = [
   },
   {
     _id: uuid(),
-    img: "https://media.istockphoto.com/id/1356321090/photo/green-oil-abstract-background.jpg?b=1&s=170667a&w=0&k=20&c=CaaHMZRbTdpyfNz7BkM6pT02hLUSNh5t2tYMoNham60=",
+    img: "https://i.pinimg.com/736x/40/3c/c7/403cc7e334e56a29fdc93fa6a2ea2546.jpg",
     
-    author: "Emile Claus",
+    author: "Keerti Naroliya",
     price: 399,
     originalPrice: 699,
     isBestSeller: false,
-    category: "Oil Painting",
+    category: "Water Color",
     rating: 3.5,
   },
+  // Clay art
+  {
+    _id: uuid(),
+    img: "https://paintology.in/wp-content/uploads/2021/07/E-couses-and-acrylic-workshops-psd-copy-760x967.jpg",
+    
+    author: "Keerti Naroliya",
+    price: 399,
+    originalPrice: 699,
+    isBestSeller: false,
+    category: "Water Color",
+    rating: 3.5,
+  },
+  {
+    _id: uuid(),
+    img: "https://cdn.shopify.com/s/files/1/1744/3435/articles/shutterstock_410271079_1024x1024.jpg?v=1624398205",
+    
+    author: "Keerti Naroliya",
+    price: 399,
+    originalPrice: 699,
+    isBestSeller: false,
+    category: "Water Color",
+    rating: 3.5,
+  },
+  {
+    _id: uuid(),
+    img: "https://s3.ap-southeast-1.amazonaws.com/we-xpats.com/uploads/article/en_b_2_header_1.jfif",
+    
+    author: "Nikhil Naroliya",
+    price: 399,
+    originalPrice: 699,
+    isBestSeller: false,
+    category: "Clay art",
+    rating: 3.5,
+  },
+  {
+    _id: uuid(),
+    img: "https://m.media-amazon.com/images/I/510YkTAGB5L._SY550_.jpg",
+    
+    author: "Nikhil Naroliya",
+    price: 399,
+    originalPrice: 699,
+    isBestSeller: false,
+    category: "Clay art",
+    rating: 3.5,
+  },
+  {
+    _id: uuid(),
+    img: "https://i.pinimg.com/originals/f0/8d/42/f08d4295c09cb278d6143eaf9fd751dc.jpg",
+    
+    author: "Nikhil Naroliya",
+    price: 499,
+    originalPrice: 699,
+    isBestSeller: false,
+    category: "Portrait",
+    rating: 4.5,
+  },
+  
+  {
+    _id: uuid(),
+    img: "https://i.ytimg.com/vi/jQumiNL0de4/maxresdefault.jpg",
+    
+    author: "Nikhil Naroliya",
+    price: 399,
+    originalPrice: 699,
+    isBestSeller: false,
+    category: "Portrait",
+    rating: 3.5,
+  },
+  {
+    _id: uuid(),
+    img: "https://www.stonedsanta.in/wp-content/uploads/2019/07/Zayn-Malik-Pencil-Portrait-Hyper-Realistic-Portrait-Siddhant-Stoned-Santa.jpg",
+    
+    author: "Nikhil Naroliya",
+    price: 299,
+    originalPrice: 699,
+    isBestSeller: false,
+    category: "Portrait",
+    rating: 4.5,
+  },
+  {
+    _id: uuid(),
+    img: "https://res.cloudinary.com/static-media/image/upload/q_auto:best,f_auto,e_improve:9/e_vibrance:10/fb-yellow_lab_pencil_portrait_mike_theuer.jpg",
+    
+    author: "Nikhil Naroliya",
+    price: 199,
+    originalPrice: 699,
+    isBestSeller: false,
+    category: "Portrait",
+    rating: 4.5,
+  },
+  {
+    _id: uuid(),
+    img: "https://i.pinimg.com/550x/8c/15/69/8c15697d1a2ebe7bffa786cf0aa3a271.jpg",
+    
+    author: "Nikhil Naroliya",
+    price: 699,
+    originalPrice: 699,
+    isBestSeller: false,
+    category: "Portrait",
+    rating: 4.5,
+  },
+  
+  
+
   {
     _id: uuid(),
     img: "https://gumlet.assettype.com/newsgram/import/wp-content/uploads/2022/03/020320221646210954.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
