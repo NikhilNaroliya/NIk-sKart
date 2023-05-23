@@ -52,6 +52,7 @@
 .sign:hover{
     background-color: rgb(77, 77, 67);
     border-radius: 0.3rem;
+    width: fit-content;
 }
 
 .home-img-container .overlay {
@@ -67,7 +68,10 @@
 .shop-now-btn {
     width: fit-content;
     background-color: #6ec5dd;
-    border: white;
+    border: "1px solid white";
+}
+.shop-now-btn:hover{
+  background-color: rgb(67, 239, 239);
 }
 
 

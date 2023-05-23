@@ -33,7 +33,8 @@ export function CheckoutPrice({ setMsg }) {
   };
 
   const displayRazorpay = async () => {
-    const res = await loadScript("https://checkout.razorpay.com/v1/checkout.js");
+    // const res = await loadScript("https://checkout.razorpay.com/v1/checkout.js");
+    const res = await loadScript("");
 
     if (!res) {
       toast.error("Razorpay SDK failed to load, check you connection");
@@ -153,9 +154,10 @@ export function CheckoutPrice({ setMsg }) {
           </div>
         </div>
       )}
-      <div className="primary-btn text-center" onClick={() => placeOrderHandler()}>
-        <button className="link-btn checkout-btn">Place Order</button>
-      </div>
+      {/* <div className="primary-btn text-center" onClick={() => placeOrderHandler()}>
+        {/* <button className="link-btn checkout-btn">Place Order</button> */}
+      {/* </div> */} 
+
     </div>
   );
 }
