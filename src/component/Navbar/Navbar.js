@@ -49,7 +49,7 @@ export default function Navbar() {
               name="search"
               className="search-bar"
               value={input}
-              placeholder="Search"
+              placeholder="search"
               onChange={(e) => setInput(e.target.value)}
             />
           </div>
@@ -86,16 +86,6 @@ export default function Navbar() {
           </ul>
         </div>
 
-        {/* <div className="search-container search-mob" onKeyDown={(e) => searchHandler(e)}>
-          <i className="fa fa-search" aria-hidden="true"></i>
-          <input
-            type="search"
-            name="search"
-            className="search-bar"
-            placeholder="Search"
-            id=""
-          />
-        </div> */}
       </ul>
     </div>
   );
