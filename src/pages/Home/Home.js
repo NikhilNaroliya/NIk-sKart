@@ -9,6 +9,7 @@ export function Home() {
   const [categories, setCategories] = useState([]);
   const navigate = useNavigate();
   const { dataDispatch, changeTitle } = useData();
+  
   useEffect(() => {
     changeTitle("Grab arts at ");
     axios

@@ -108,9 +108,12 @@
 }
 
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:400px) {
 
-
+    .search-bar::placeholder {
+        /* width:2rem; */
+        color: rgb(155, 164, 168);
+     }
     .navbar-right {
         gap: 1.5rem
     }
@@ -133,12 +136,12 @@
 
 
     .search-container {
-        display: none;
+        display: flex;
     }
 
     .search-mob {
         display: flex;
-        width: 35%;
+        width: 27%;
     }
 
     .navbar-right li span {

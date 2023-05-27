@@ -49,6 +49,7 @@ export function dataReducer(state, action) {
           ...state,
           address: action.payload,
         };
+        // have to work on it
     case ACTION_TYPE.SEARCH:
       return {
         ...state,

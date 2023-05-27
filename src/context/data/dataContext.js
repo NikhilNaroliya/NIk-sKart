@@ -10,7 +10,8 @@ const DataProvider = ({ children }) => {
   const [drawer, setDrawer] = useState(false);
   const [loader, setLoader] = useState(false);
   useEffect(() => {
-    (async () => {
+    (
+      async () => {
       try {
         const { data: category } = await axios.get("/api/categories");
         dispatch({

@@ -49,7 +49,7 @@ export default function Navbar() {
               name="search"
               className="search-bar"
               value={input}
-              placeholder="search"
+              placeholder="find"
               onChange={(e) => setInput(e.target.value)}
             />
           </div>
