@@ -10,6 +10,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { OrderSummary } from "./pages/OrderSummary/OrderSummary";
 import { PrivateRoute } from "./component/PrivateRoute/PrivateRoute";
+import { Search } from "./searchedProduct/search";
 
 function App() {
   const { loader } = useData();
@@ -33,6 +34,7 @@ function App() {
           <Route path="/product/:productId" element={<ProductPage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/search" element={<Search/>} />
           <Route path="*" element={<Error />} />
           <Route
             path="/wishlist"

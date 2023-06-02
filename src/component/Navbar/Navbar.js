@@ -1,15 +1,17 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth, useData } from "../../context";
 import { ACTION_TYPE } from "../../utils";
 import "./Navbar.css";
+import { DataContext } from "../../context/data/dataContext";
 
 export default function Navbar() {
+  const {input,setInput}=useContext(DataContext)
   const { token } = useAuth();
   const { cart, wishlist, dataDispatch, setLoader, drawer, setDrawer } = useData();
   const navigate = useNavigate();
   let timer = useRef();
-  const [input, setInput] = useState("");
+  // const [input, setInput] = useState("");
 
   useEffect(() => {
     clearTimeout(timer.current);
@@ -21,8 +23,9 @@ export default function Navbar() {
       setLoader(true);
       setTimeout(() => setLoader(false), 500);
       if (input.trim().length > 0) {
-        navigate("/product");
+        navigate("/search");
       }
+     
     }, 500);
   }, [input]);
 

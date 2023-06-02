@@ -1,18 +1,11 @@
 import { v4 as uuid } from "uuid";
 
-/**
- * Product Database can be added here.
- * You can add products of your wish with different attributes
- * */
 
-// self help -Oil Painting
-// Fiction -Vector Art
-//non finction-Wooden Art
 export const products = [
   {
     _id: uuid(),
     img: "https://images.pexels.com/photos/1045299/pexels-photo-1045299.jpeg?cs=srgb&dl=pexels-steve-johnson-1045299.jpg&fm=jpg",
-    
+    name:"Oil Painting",
     author: "Winslow Homer",
     price: 219,
     originalPrice: 399,

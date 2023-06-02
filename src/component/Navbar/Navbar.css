@@ -68,7 +68,7 @@
 .search-bar {
     outline: none;
     border: none;
-    width: 40%;
+    width: 50%;
 }
 
 .search-container .fa {
@@ -78,6 +78,7 @@
 .search-bar::placeholder {
    width:max-content;
    color: grey;
+   
 }
 
 .primary-btn {

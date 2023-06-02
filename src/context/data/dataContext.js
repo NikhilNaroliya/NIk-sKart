@@ -3,10 +3,10 @@ import { createContext, useContext, useEffect, useReducer, useState } from "reac
 import { ACTION_TYPE } from "../../utils/constant";
 import { initialState, dataReducer } from "../../reducer/DataReducer";
 
-const DataContext = createContext();
-
+export const DataContext = createContext();
 const DataProvider = ({ children }) => {
   const [state, dispatch] = useReducer(dataReducer, initialState);
+  const [input, setInput] = useState("");
   const [drawer, setDrawer] = useState(false);
   const [loader, setLoader] = useState(false);
   useEffect(() => {
@@ -50,6 +50,8 @@ const DataProvider = ({ children }) => {
         setLoader,
         drawer,
         setDrawer,
+        input,
+        setInput
       }}
     >
       {children}

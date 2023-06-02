@@ -1,0 +1,86 @@
+ .card-content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* justify-content: center; */
+
+}
+.search-cards{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.search-product-card{
+
+
+     border-radius: 0.5rem;
+    border: 1px solid white;
+    background-color:white;
+
+    height: 23rem;
+    width: 15rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    justify-content: center;
+
+}
+#art-price{
+    margin-top: 1rem;
+    color: rgb(28, 20, 20);
+    margin-left: 1rem;
+    
+}
+#art-original-price{
+    margin-top: -1.2rem;
+    color: rgb(140, 127, 127);
+    margin-left: 4rem;
+}
+#search-name{
+    color: grey;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+#art-rating{
+ background-color: rgb(26, 142, 26);
+ width: fit-content;
+ margin-top: 3rem;
+ font-size: 12px;
+ align-items: center;
+ width: 2rem;
+
+ margin-left: 12rem;
+ padding: 0.1rem;
+ border-radius: 0.6rem;
+ color: white;
+}
+#rating-num{
+    align-items: center;
+    margin-left: 0.4rem;
+}
+.search-image{
+    
+    height:7rem;width:14.9rem;
+    margin-top: 1rem;
+  
+ }
+
+ #search-page-add-to-cart{
+    border-radius: 0.4rem;
+    width: 98%;
+    padding: 0.4rem;
+    align-items: center;
+    margin-left: 0.1rem;
+    background-color: rgb(77, 169, 226);
+    margin-top: 3.5rem;
+    color: white;
+ }
+ #percentage-off{
+  
+    margin-top: -1.2rem;
+    margin-left: 8rem;
+    color: green;
+ }
