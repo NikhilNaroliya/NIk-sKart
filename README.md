@@ -8,6 +8,7 @@
 ## **How to install and run locally ?**
 
 ```
+$ git clone https://github.com/NikhilNaroliya/ArtCart.git
 $ cd  artcart
 $ npm install
 $ npm start
@@ -34,7 +35,7 @@ $ npm start
 - React JS
 - React Context API + useReducer
 - React Router v6
-- Vanilla CSS integrated with BoostMat UI Component Library
-- Razorpay payment gateway
+
+
 
 
