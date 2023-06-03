@@ -24,7 +24,7 @@ export default function Navbar() {
       setLoader(true);
       setTimeout(() => setLoader(false), 500);
       if (input.trim().length > 0) {
-        navigate("/search");
+        navigate("/product");
       }
      
     }, 500);
@@ -55,7 +55,7 @@ export default function Navbar() {
               name="search"
               className="search-bar"
               value={input}
-              placeholder="find category"
+              placeholder="find cat"
               onChange={(e) => setInput(e.target.value)}
             />
           </div>
