@@ -1,4 +1,4 @@
-export function sortData(products, sortBy, priceRange, sortByRating) {
+export function sortData(products, sortBy, priceRange, sortByRating,input) {
   switch (sortBy) {
     case "CLEAR":
       products = products;
@@ -34,6 +34,6 @@ export function filterData(products, category) {
 
 export function searchProduct(products, search) {
   return search
-    ? products.filter((product) => product.name.toLowerCase().includes(search.toLowerCase()))
+    ? products.filter((product) => product.category.toLowerCase().includes(search.toLowerCase()))
     : products;
 }

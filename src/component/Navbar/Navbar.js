@@ -55,7 +55,7 @@ export default function Navbar() {
               name="search"
               className="search-bar"
               value={input}
-              placeholder="find"
+              placeholder="find category"
               onChange={(e) => setInput(e.target.value)}
             />
           </div>

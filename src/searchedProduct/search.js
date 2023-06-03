@@ -17,7 +17,7 @@ export function Search() {
   const { products, cart, dataDispatch, wishlist, setLoader, changeTitle } =
     useData();
 
-  let result = products.filter((nam) => nam.category === input);
+  let result = products.filter((nam) => nam.category.toLowerCase() === input.toLowerCase());
 
   const product = products?.find((pro) => {
     return pro._id === productId;

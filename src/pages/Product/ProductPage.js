@@ -15,8 +15,8 @@ export function ProductPage() {
   const { token } = useAuth();
   const { products, cart, dataDispatch, wishlist, setLoader, changeTitle } = useData();
 
-  const product = products?.find((product) => {
-    return product.id === productId;
+  const product = products?.find((pro) => {
+    return pro._id === productId;
   });
 
   const isInCart = isProductInCart(cart, product?._id);

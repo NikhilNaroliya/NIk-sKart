@@ -19,7 +19,8 @@ export function Product() {
     setDrawer,
     changeTitle,
   } = useData();
-
+  
+ 
   const searchData = searchProduct([...data], search);
   const filteredData = filterData([...searchData], category);
   const sortedData = sortData([...filteredData], sortBy, priceRange, sortByRating);
