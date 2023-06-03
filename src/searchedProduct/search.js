@@ -7,6 +7,7 @@ import { useData } from "../context/data/dataContext";
 import { useAuth } from "../context";
 import { addToCart, addToWishlist } from "../services/cart/cartServices";
 import { toast } from "react-toastify";
+import { Link } from "react-router-dom";
 
 export function Search() {
   //---------------------------------------------------
@@ -37,7 +38,8 @@ export function Search() {
     <div className="search-cards">
       {/* <h1>Search page</h1> */}
       {result.length <= 0 ? (
-        <h4>No products found</h4>
+        <h3 style={{marginTop:"1rem"}}>No products found for choosen category <Link to="/product" style={{color:"#34cfeb",border:"1px solid #34cfeb",marginLeft:"0.4rem", borderRadius:"0.5rem"}}> See More Products</Link> </h3> 
+      
       ) : (
         result.map((art) => (
           <ul className="search-product-card">
