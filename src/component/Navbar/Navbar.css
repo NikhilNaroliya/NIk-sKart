@@ -150,7 +150,7 @@
     }
 
     .icon {
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     }
 
     .navbar-right img {
@@ -181,4 +181,23 @@
         padding: 0.2rem;
     }
    
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 4) {
+    /* CSS */
+    .search-mob {
+        
+        display: flex;
+
+        width: 24%;
+         
+     }
+     #artcart{
+         font-size: smaller;
+         margin-right: 0.3rem;
+     }
+     .navbar-right{
+         display: flex;
+         padding: 0.2rem;
+     }
 }

@@ -5,6 +5,7 @@ import { useAuth, useData } from "../../context";
 import { addToCart, addToWishlist } from "../../services";
 import { isProductInCart, isProductInWishlist } from "../../utils/cartUtils";
 import { toast } from "react-toastify";
+import Navbar from "../../component/Navbar/Navbar";
 
 export function ProductPage() {
   const { productId } = useParams();
@@ -35,7 +36,8 @@ export function ProductPage() {
         ? navigate("/wishlist")
         : addToWishlist(dataDispatch, product, token, toast, setWishlistBtnDisabled)
       : navigate("/login");
-  };
+    };
+
   useEffect(() => changeTitle(product?.name), []);
 
   if (products.length === 0) {

@@ -4,6 +4,7 @@ import { useAuth, useData } from "../../context";
 import { ACTION_TYPE } from "../../utils";
 import "./Navbar.css";
 import { DataContext } from "../../context/data/dataContext";
+import { Icons } from "react-toastify";
 
 export default function Navbar() {
   const {input,setInput}=useContext(DataContext)
@@ -35,11 +36,13 @@ export default function Navbar() {
         <div className="navbar-main ">
           <div className="navbar-left">
             {window.location.href.includes("product") && (
-              <i
-                className="fa fa-bars drawer-hamberg-btn"
-                aria-hidden="true"
-                onClick={() => setDrawer(!drawer)}
-              />
+              // <i
+              //   className="fa fa-bars drawer-hamberg-btn"
+              //   aria-hidden="false"
+              //   onClick={() => setDrawer(!drawer)}
+              // />
+              <span className="fa fa-bars drawer-hamberg-btn" style={{cursor:"pointer",marginRight:"0.4rem",fontSize:"20px"}} onClick={() => setDrawer(!drawer)}> ≡</span>
+             
             )}
             <Link to="/">
               <h3 id="artcart">ArtCart</h3>
