@@ -80,6 +80,12 @@
    color: grey;
    
 }
+#artcart:hover{
+ color: rgb(236, 241, 247);
+  scale: 1.1;
+  border: 1px solid rgb(171, 217, 236);
+  border-radius: 0.5rem;
+}
 
 .primary-btn {
     cursor: pointer;
@@ -161,9 +167,20 @@
 
 @media screen and (min-width:480px) {
     .search-mob {
+        
         display: flex;
-        width: 25%;
-    }
+
+        width: 23%;
+         
+     }
+     #artcart{
+         font-size: smaller;
+         margin-right: 0.3rem;
+     }
+     .navbar-right{
+         display: flex;
+         padding: 0.2rem;
+     }
 }
 @media screen and (max-width:300px) {
     .search-mob {
@@ -171,6 +188,7 @@
        display: none;
        justify-content: space-evenly;
        width: 30%;
+       
         
     }
     #artcart{
