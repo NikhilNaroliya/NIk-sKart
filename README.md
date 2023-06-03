@@ -8,6 +8,7 @@
 ## **How to install and run locally ?**
 
 ```
+$ git clone https://github.com/NikhilNaroliya/ArtCart.git
 $ cd  artcart
 $ npm install
 $ npm start
