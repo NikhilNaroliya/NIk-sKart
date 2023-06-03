@@ -36,6 +36,9 @@ $ npm start
 - React Context API + useReducer
 - React Router v6
 
+## **Demo  -**
+https://www.loom.com/share/7f280e54b2b14764a03bb8ba67a486c4
+
 
 
 
