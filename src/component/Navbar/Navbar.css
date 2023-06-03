@@ -201,3 +201,20 @@
          padding: 0.2rem;
      }
 }
+@media only screen and (min-width: 375px){
+    .search-mob {
+        
+        display: flex;
+
+        width: 24%;
+         
+     }
+     #artcart{
+         font-size: smaller;
+         margin-right: 0.3rem;
+     }
+     .navbar-right{
+         display: flex;
+         padding: 0.2rem;
+     }
+}
