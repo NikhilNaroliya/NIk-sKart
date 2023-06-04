@@ -182,7 +182,7 @@
          padding: 0.2rem;
      }
 }
-@media screen and (max-width:300px) {
+@media only screen and (-webkit-min-device-pixel-ratio : 2) and (device-aspect-ratio: 2/3){
     .search-mob {
         
        display: none;
