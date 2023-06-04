@@ -122,7 +122,7 @@
         color: rgb(155, 164, 168);
      }
     .navbar-right {
-        gap: 1.5rem
+        gap: 0.5rem
     }
 
     .navbar {
@@ -219,20 +219,69 @@
          padding: 0.2rem;
      }
 }
-@media only screen and (min-width: 375px){
-    .search-mob {
-        
-        display: flex;
 
-        width: 24%;
-         
+
+@media screen and (max-width:300px) {
+
+   
+    .search-bar::placeholder {
+        /* width:2rem; */
+        color: rgb(155, 164, 168);
      }
-     #artcart{
-         font-size: smaller;
-         margin-right: 0.3rem;
-     }
-     .navbar-right{
-         display: flex;
-         padding: 0.2rem;
-     }
+    .navbar-right {
+        gap: 0.5rem;
+
+        /* justify-items: baseline; */
+    }
+
+    .navbar {
+        justify-content: space-between;
+        padding: 0.8rem 1rem;
+        gap: 1rem
+    }
+
+    .navbar-main {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .navbar-left a h2 {
+        font-size: 1.3rem;
+
+    }
+
+
+    .search-container {
+        display: flex;
+    }
+
+    .search-mob {
+        display: flex;
+        width: 32%;
+        /* margin-top: 5rem; */
+        margin-right: 5rem;
+    }
+
+
+    .navbar-right li span {
+        display: block;
+    }
+
+    .navbar-left{
+        margin-left: -2rem;
+    }
+    .icon {
+        font-size: 0.5rem;
+    }
+
+    .navbar-right
+    {
+        margin-left: 10rem;
+        position: absolute;
+    }
+    .navbar-right img {
+        width: 20px;
+        height: 20px;
+    }
 }
